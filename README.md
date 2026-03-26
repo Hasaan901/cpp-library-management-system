@@ -60,18 +60,10 @@ To access the system, use the following default login credentials:
 ## 📂 Repository Structure
 
 - `lms.cpp`: The main C++ source code containing all logic and UI.
-- `.gitignore`: Configured to ignore compiled binaries and system-specific files.
 - `LICENSE`: MIT License.
 
 ---
 
-## 📝 Project Metadata (GitHub Suggestions)
-
-- **Repo Name**: `cpp-library-management-system`
-- **About**: A robust C++ console application for managing library operations, featuring book tracking, user authentication, and fine management.
-- **Topics**: `cpp`, `library-management-system`, `oop`, `console-application`, `student-project`, `lms`
-
----
 
 ## ⚖️ License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
