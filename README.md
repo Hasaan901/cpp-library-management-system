@@ -1,48 +1,77 @@
-📚 Library Management System (C++)
-Description
-This is a simple console-based Library Management System written in C++. It allows users to register, log in, view available books, search for a specific book, borrow books, and return them. It includes a fine system for late returns.
+# 📚 Library Management System (LMS)
 
-Features
-User Registration (dummy, not stored)
+A professional, console-based Library Management System built with C++. This project demonstrates core Object-Oriented Programming (OOP) concepts such as classes, encapsulation, and basic data management.
 
-User Login (only works with hardcoded credentials: Hasaan, 123)
+---
 
-Display all available books
+## 🚀 Features
 
-Search for books by title, author, or ISBN
+- **User Authentication**: Secure login system with administrative access.
+- **Book Management**:
+  - View a comprehensive list of available books.
+  - Search for books by **Title**, **Author**, or **ISBN**.
+- **Borrowing System**: Real-time stock management when books are borrowed.
+- **Return & Fine System**: 
+  - Automated return tracking.
+  - Logical fine calculation (₹500) for late submissions (returns after the 12th).
+- **Interactive CLI**: ASCII art-enhanced interface for a better user experience.
 
-Borrow books (decreases stock)
+---
 
-Return books (increases stock)
+## 🛠️ Installation & Setup
 
-Includes a fine of Rs. 500 for late returns
+### Prerequisites
+- A C++ compiler (e.g., GCC, Clang, or MSVC).
+- A terminal or command prompt.
 
-How It Works
-1. Startup
-The program displays a logo.
+### Compilation
+Clone the repository and compile the source file using your preferred compiler:
 
-Users are prompted to register or log in.
+```bash
+g++ lms.cpp -o lms
+```
 
-2. Authentication
-Registration: Asks for a name and password (not stored or used).
+### Running the Application
+After compilation, run the executable:
 
-Login:
+```bash
+./lms
+```
 
-Username: Hasaan
+---
 
-Password: 123
+## 📖 Usage Guide
 
-Only these credentials allow access to the main menu.
+### Default Credentials
+To access the system, use the following default login credentials:
 
-3. Main Menu (after login)
-Options include:
+| Username | Password |
+| :--- | :--- |
+| `Hasaan` | `123` |
 
-View all books: Displays book details (title, author, ISBN, stock).
+### Workflow
+1. **Launch**: Start the program to see the LMS logo.
+2. **Authenticate**: Register (demo) or Login using the credentials above.
+3. **Main Menu**: Choose from options to view, search, borrow, or return books.
+4. **Exit**: Terminate the session safely.
 
-Search for books: Search by title, author, or ISBN.
+---
 
-Borrow books: Reduces the book stock by 1.
+## 📂 Repository Structure
 
-Return books: Increases stock. A fine is applied if returned after day 12.
+- `lms.cpp`: The main C++ source code containing all logic and UI.
+- `.gitignore`: Configured to ignore compiled binaries and system-specific files.
+- `LICENSE`: MIT License.
 
-Exit: Terminates the program.
+---
+
+## 📝 Project Metadata (GitHub Suggestions)
+
+- **Repo Name**: `cpp-library-management-system`
+- **About**: A robust C++ console application for managing library operations, featuring book tracking, user authentication, and fine management.
+- **Topics**: `cpp`, `library-management-system`, `oop`, `console-application`, `student-project`, `lms`
+
+---
+
+## ⚖️ License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
